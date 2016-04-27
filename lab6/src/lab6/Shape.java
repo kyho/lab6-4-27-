@@ -19,6 +19,7 @@ public abstract class Shape {
 	
 	
 	public abstract double caculateArea();
-	
+	public abstract double caculatePerimeter();
+	public abstract void printInfo();
 
 }
