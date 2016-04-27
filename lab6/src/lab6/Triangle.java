@@ -61,8 +61,9 @@ public class Triangle extends Shape{
 
 	@Override
 	public void printInfo() {
-		// TODO Auto-generated method stub
+		System.out.format("Triangle with an id of %d, sides of %f, %f, %f, area of %f, and perimeter of %f0", this.getId(), this.side1, this.side2, this.side3, this.caculateArea(), this.caculatePerimeter());
 		
+		System.out.println();
 	}
 
 }

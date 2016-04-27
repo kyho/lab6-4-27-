@@ -23,7 +23,11 @@ public class Rectangle extends Shape{
    }
    @Override
    public void printInfo() {
+	   System.out.format("Rectangle with an id of %d, "
+	   		+ "width of %f, height of %f, area of %f, "
+	   		+ "and perimeter of %f", this.getId(), this.width, this.height, this.caculateArea(), this.caculatePerimeter());
 	   
+	   System.out.println();
       
    }
    
