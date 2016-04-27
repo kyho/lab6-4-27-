@@ -28,7 +28,8 @@ public class Circle extends Shape {
 
 	@Override
 	public void printInfo() {
-		// TODO Auto-generated method stub
+		System.out.format("Circle with an id of %d, radius of %f, area of %f, and perimeter of %f", this.getId(), this.getRadius(), this.caculateArea(), this.caculatePerimeter());
+		
 		
 	}
 	
