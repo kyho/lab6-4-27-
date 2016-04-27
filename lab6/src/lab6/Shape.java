@@ -1,6 +1,6 @@
 package lab6;
 
-public abstract class Shapes {
+public abstract class Shape {
 	
 	private int id;
 
