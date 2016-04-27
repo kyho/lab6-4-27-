@@ -6,7 +6,7 @@ public class Rectangle extends Shape{
    private double height;
    //constructor
    public Rectangle(double width, double height) {
-      super();
+      super(2);
       this.width = width;
       this.height = height;
    }

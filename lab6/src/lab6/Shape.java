@@ -4,9 +4,9 @@ public abstract class Shape {
 	
 	private int id;
 	
-	public Shape()
+	public Shape(int id)
 	{
-		
+		this.setId(id);
 	}
 
 	public int getId() {

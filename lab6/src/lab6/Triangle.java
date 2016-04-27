@@ -8,7 +8,7 @@ public class Triangle extends Shape{
 	
 	//constructor
 	public Triangle(double side1, double side2, double side3) {
-		super();
+		super(3);
 		this.side1 = side1;
 		this.side2 = side2;
 		this.side3 = side3;
